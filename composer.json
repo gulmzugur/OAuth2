@@ -1,0 +1,27 @@
+{
+    "name": "gulmzugur/oauth2",
+    "description": "OAuth 2.0 Server for CodeIgniter 4",
+    "homepage": "https://github.com/gulmzugur/oauth2",
+    "license": "MIT",
+    "keywords": [
+        "oauth2.0",
+        "codeigniter oauth2.0"
+    ],
+    "authors": [
+        {
+            "name": "Uğur Gülmez",
+            "email": "gulmzugur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "codeigniter4/framework": "^4.0",
+        "league/oauth2-server": "^8.1",
+        "steverhoades/oauth2-openid-connect-server": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OAuth2\\": "src/"
+        }
+    }
+}
