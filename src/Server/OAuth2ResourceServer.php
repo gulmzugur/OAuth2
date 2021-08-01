@@ -86,7 +86,7 @@ class OAuth2ResourceServer{
             );
             $request->setHeader('authorization', $response->getAttributes());
         } catch (OAuthServerException $exception) {
-            throw new OAuth2ServerException(
+            throw new ServerException(
                 $exception->getMessage(),
                 $exception->getCode(),
                 $exception->getErrorType(),
