@@ -53,7 +53,7 @@ abstract class OAuth2{
      * @param OIDC|null $oidc
      * @return OAuth2AuthorizationServer
     **/
-    static function initializeAuthServer(
+    static function initializeAuthorizationServer(
         AuthorizationConfig $config,
         AuthorizationGrant $grant,
         OIDC $oidc = null
